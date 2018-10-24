@@ -131,7 +131,7 @@ HAL_TIM_IC_Start_IT (&htim2, TIM_CHANNEL_1);
   {
 		//get_base_value(); //take 16384 samples
 		//frequency_average();
-		//display_frequency();
+		///display_frequency();
 		
 		while(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_11)==0);
 		printf ("switch detect1 \n\r");	
